@@ -1,0 +1,20 @@
+{
+    "path": "demo",
+    "elements": {
+        "products": "//*[@id='content']/ul/li[2]",
+        "addToCart": "//button[@type='submit']",
+        "showBasket": "(//a[@class='button wc-forward'])[2]",
+        "goToPaymentPage": "//a[@href='https://www.iyzico.com/demo/index.php/odeme/']",
+        "debitCard": "#payment_method_iyzico",
+        "payWithDebitOrCreditCard": "#place_order",
+        "cardHolderName": "//input[@name='cardHolderName']",
+        "cardNumber": "//input[@name='cardNumber']",
+        "expireDate": "//input[@name='expireDate']",
+        "cvc": "//input[@name='cvc']",
+        "pay": "#iyz-payment-button",
+        "smsCodeText": "//p[@class='help-block']",
+        "smsCode": "#smsCode",
+        "submitBtn": "#submitBtn",
+        "SiparisAlindi": "//*[text() = 'Sipariş alındı']"
+    }
+}
